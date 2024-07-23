@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: var(--police-corps-texte);
+    line-height: var(--interligne);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--police-titres);
+}
+
+h5,
+p,
+a,
+strong,
+input {
+    font-family: var(--police-corps-texte);
+}
+
+h1 {
+    font-size: var(--taille-tres-grande);
+}
+
+h2 {
+    font-size: var(--taille-grande);
+}
+
+h3 {
+    font-size: var(--taille-moyenne2);
+}
+
+h4 {
+    font-size: var(--taille-moyenne1);
+}
+
+h5 {
+    font-size: var(--taille-moyenne1);
+}
+
+h6 {
+    font-size: var(--taille-petite);
+}
+
+p,
+a {
+    font-size: var(--taille-petite);
+}
+
+img {
+    display: block;
+    width : 100%;
+}

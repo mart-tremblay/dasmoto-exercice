@@ -1,0 +1,47 @@
+/*region - Langage graphique proposé*/
+:root {
+
+    /*region - Police de caractères*/
+    --police-titres: 'Helvetica', sans-serif;
+    --police-corps-texte: 'Helvetica', sans-serif;
+}
+
+html {
+    /* utilisation d'une formule pour obtenir des tailles de caractères réactives et fluides
+    (c.f. https://matthewjamestaylor.com/responsive-font-size) */
+    --taille-extra-grande-plus: 100px;
+    --taille-extra-grande: 3rem;
+    --taille-tres-grande: 32px;
+    /*--taille-tres-grande: 2.5rem;*/
+    --taille-grande: 2.188rem;
+    --taille-moyenne2: 1.875rem;
+    --taille-moyenne1: 1.563rem;
+    --taille-petite: 0.95rem;
+    --taille-courante: calc(15px + 0.390625vw);
+    /*--taille-extra-grande-plus: 3.5em;*/
+    /*endregion*/
+
+    --largeur-txt-max: 35ch;
+
+    /*region - Espacement*/
+    --interligne: 1.25;
+    --espacement-petit: 0.625em;
+    --espacement-moyen: 0.938em;
+    --espacement-moyen-plus: 1.1em;
+    --espacement-grand: 1.3em;
+    --espacement-tres-grand: 1.87em;
+    /*endregion*/
+
+    /*region - Palettes de couleurs*/
+    /* Palette A */
+    --couleur-A1: khaki;
+    --couleur-A2: mediumspringgreen;
+    --couleur-A3: lightcoral;
+    --couleur-A4: skyblue;
+    --couleur-A5: #bebdbd;
+
+    /*endregion*/
+
+
+}
+/*endregion*/

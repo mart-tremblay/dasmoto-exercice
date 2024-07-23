@@ -1,0 +1,59 @@
+@import "graphic_language.css";
+@import "general_rules.css";
+
+html {
+    margin: 0 1rem;
+}
+
+header {
+    background-image: url(../img/pattern.jpg);
+    margin: 4rem 0;
+}
+
+h1 {
+    font-size: var(--taille-extra-grande-plus);
+    font-weight: bold;
+    color: var(--couleur-A1);
+    text-align: center;
+
+}
+
+h2 {
+    margin: 3rem 0 1.5rem 0;
+    font-size: var(--taille-tres-grande);
+    font-weight: bold;
+    color: white;
+    padding: 0.1rem;
+}
+
+p {
+    font-size: var(--taille-courante);
+}
+
+article img {
+    width: 18rem;
+}
+
+figcaption {
+    margin: 2rem 0;
+    font-size: var(--taille-moyenne1);
+    color: black;
+    font-weight: bold;
+}
+
+#brushes {
+    background-color: var(--couleur-A2);
+}
+
+#frame {
+    background-color: var(--couleur-A3);
+}
+
+#paint {
+    background-color: var(--couleur-A4);
+}
+
+span {
+    color: #1919ff;
+    font-weight: bold;
+}
